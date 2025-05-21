@@ -16,5 +16,5 @@ qr.add_data("https://www.openai.com")
 qr.make(fit=True)
 img=qr.make_image(fill_color="purple",back_color="white")
 img.show()
-image.save("openai_qr.png")
+img.save("openai_qr.png")
 
